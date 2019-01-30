@@ -1,1 +1,20 @@
-Testing 1 2 3
+---
+layout: default
+---
+
+<div class="home">
+I'm Matt Ray, an Open Source geek and one of the co-hosts of the <a href="https://www.softwaredefinedtalk.com">Software Defined Talk</a> podcast. I currently live in Sydney, Australia and I'm Chef's Regional Manager and Customer Architect for APJ. My cooking skills are negligible but I enjoy eating nevertheless.
+  <h1 class="page-heading">Posts</h1>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

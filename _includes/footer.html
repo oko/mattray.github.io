@@ -1,0 +1,21 @@
+<footer class="site-footer">
+  <ul class="contact-list">
+    {{ page.description | default: site.description | default: site.github.project_tagline }}
+    <li>
+      <a href="mailto:{{ site.email }}">Email me</a>
+    </li>
+    <li>
+      <a href="https://github.com/{{ site.github_username }}">
+        @{{ site.github_username }} on GitHub
+      </a>
+    </li>
+    <li>
+      <a href="https://twitter.com/{{ site.twitter_username }}">
+        @{{ site.twitter_username }} on Twitter
+      </a>
+    </li>
+    <li>
+      <span class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></span>
+    </li>
+  </ul>
+</footer>
