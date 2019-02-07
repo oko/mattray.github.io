@@ -36,7 +36,7 @@ To set the timezone I ran:
 
     timedatectl set-timezone Australia/Sydney
 
-To use the whole microSD card I followed [these instructions](http://elinux.org/Beagleboard:BeagleBoneBlack_Debian#Expanding_File_System_Partition_On_A_microSD:
+To use the whole microSD card I followed [these instructions](http://elinux.org/Beagleboard:BeagleBoneBlack_Debian#Expanding_File_System_Partition_On_A_microSD):
 
     cd /opt/scripts/tools/
     git pull
