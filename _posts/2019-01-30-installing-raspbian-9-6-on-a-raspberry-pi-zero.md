@@ -4,7 +4,7 @@ title: Installing Raspbian 9 on a Raspberry Pi Zero
 
 ## Getting Started
 
-<a href="https://shop.pimoroni.com/products/raspberry-pi-zero-w"><img src="/assets/Pibow_Zero_ver_1.3_1_of_3_1024x1024.JPG" alt="Raspberry Pi Zero W" width="335" height="335" align="right" /></a>
+<a href="https://shop.pimoroni.com/products/raspberry-pi-zero-w"><img src="/assets/Pibow_Zero_ver_1.3_1_of_3_1024x1024.JPG" alt="Raspberry Pi Zero W" width="235" height="235" align="right" /></a>
 
 Thanks to [Graham Weldon](https://grahamweldon.com/), I recently got a [Raspberry Pi Zero W](https://shop.pimoroni.com/products/raspberry-pi-zero-w) to play around with. Having installed [Debian on my Beagle Bone Black](/2019/01/29/installing-debian-9-7-on-a-beaglebone-black), naturally I wanted to install it on this box too.
 

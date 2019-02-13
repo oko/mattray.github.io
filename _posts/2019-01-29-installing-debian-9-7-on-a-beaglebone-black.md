@@ -5,7 +5,7 @@ I previously blogged about [Installing Debian 8.6 on a BeagleBone Black](https:/
 
 ## Getting Started
 
-<a href="https://www.adafruit.com/product/1996"><img src="/assets/1996-01.jpg" alt="BeagleBone Black" width="335" height="328" align="right" />
+<a href="https://www.adafruit.com/product/1996"><img src="/assets/1996-01.jpg" alt="BeagleBone Black" width="235" height="228" align="right" />
 
 Having done it a few times now, installing Debian on the <a href="https://www.adafruit.com/product/1996">BeagleBone Black</a> is fairly straightforward. Most of what I needed came from [Debian BeagleBoard instructions](https://elinux.org/BeagleBoardDebian).
 
