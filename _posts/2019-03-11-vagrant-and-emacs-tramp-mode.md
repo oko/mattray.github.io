@@ -4,7 +4,7 @@ title: Test Kitchen/Vagrant Remote Shell and File Editing with Emacs' TRAMP Mode
 
 <a href="https://www.gnu.org/software/emacs/"><img src="/assets/emacs.png" alt="Emacs" align="right" /></a>
 
-I use Emacs' Shell Mode for embedding my terminal in my editor, so I have access to the output and history of every command I run. Using Kitchen with Vagrant allows me to quickly go back and forth between my [Chef](https://chef.io) recipes and testing with [InSpec](https://inspec.io). Emacs' [TRAMP Mode](https://www.emacswiki.org/emacs/TrampMode) is a package for editing remote files, but it can also be used to open remote shells. This is quite useful when working with tools like [Vagrant]() and [Test Kitchen]() when you need to debug how your code is behaving on test instances.
+I use [Emacs](https://www.gnu.org/software/emacs/)' [Shell Mode](https://www.gnu.org/software/emacs/manual/html_node/emacs/Shell-Mode.html) for embedding my terminal in my editor, so I have access to the output and history of every command I run. Using [Kitchen](https://kitchen.ci) with [Vagrant](https://www.vagrantup.com/) allows me to quickly go back and forth between my [Chef](https://chef.io) recipes and testing with [InSpec](https://inspec.io). Emacs' [TRAMP Mode](https://www.emacswiki.org/emacs/TrampMode) is a package for editing remote files, but it can also be used to open remote shells. This is quite useful when working with tools like Vagrant and Test Kitchen when you need to debug how your code is behaving on test instances.
 
 The video below demonstrates what this looks like in action, the relevant commands follow below.
 
