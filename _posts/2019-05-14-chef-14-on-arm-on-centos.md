@@ -62,11 +62,7 @@ Install the `ruby-build` plugin to make it easier to manage different Ruby versi
 
 ## Omnibus CentOS Raspberry Pi 3 Patch
 
-CentOS provides packages for the Raspberry Pi 3 platform, but the arch is `armv7hl` not `armv7l`. Omnibus does not have proper support for this yet, but the following patch has been submitted.
-
-    https://github.com/chef/omnibus/pull/889
-
-You will need to patch your `lib/omnibus/packagers/rpm.rb` in your `omnibus` gem provided by bundler accordingly.
+CentOS provides packages for the Raspberry Pi 3 platform, but the arch is `armv7hl` not `armv7l`. Omnibus does not have proper support for this yet, but the [following patch](https://github.com/chef/omnibus/pull/889) has been submitted. You will need to patch your `lib/omnibus/packagers/rpm.rb` in your `omnibus` gem provided by bundler accordingly.
 
 ## Omnibus-Toolchain
 
@@ -77,7 +73,9 @@ Now that Ruby is installed, let's build and install the [Omnibus-Toolchain](http
     cd omnibus-toolchain
     bundle install --without development --path=.bundle
 
-Apply the `lib/omnibus/packagers/rpm.rb` patch to `~/omnibus-toolchain/.bundle/ruby/2.6.0/bundler/gems/omnibus-*/lib/omnibus/packagers/rpm.rb`.
+Apply the `lib/omnibus/packagers/rpm.rb` patch to
+
+    ~/omnibus-toolchain/.bundle/ruby/2.6.0/bundler/gems/omnibus-*/lib/omnibus/packagers/rpm.rb
 
 Now you can build and install the RPM.
 
@@ -100,7 +98,11 @@ With `omnibus-toolchain` installed, we can reset our `PATH` and build Chef as th
     cd chef-14.12.9/omnibus/
     bundle install --without development --path=.bundle
 
-Apply the `lib/omnibus/packagers/rpm.rb` patch to `~/chef-14.12.9/omnibus/.bundle/ruby/2.5.0/bundler/gems/omnibus-*/lib/omnibus/packagers/rpm.rb`.
+Apply the `lib/omnibus/packagers/rpm.rb` patch to
+
+     ~/chef-14.12.9/omnibus/.bundle/ruby/2.5.0/bundler/gems/omnibus-*/lib/omnibus/packagers/rpm.rb
+
+Now you can complete the Chef build.
 
     sudo mkdir /opt/chef
     sudo chown omnibus:omnibus -R /opt/chef
