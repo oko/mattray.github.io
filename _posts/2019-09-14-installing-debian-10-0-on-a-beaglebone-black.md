@@ -56,3 +56,7 @@ and bootstrapped the box with my a [home boxes cookbook](https://github.com/matt
     knife bootstrap 10.0.0.4 -x debian --sudo -N cubert --policy-group home --policy-name beaglebone
 
 Now it was ready to use again.
+
+## Update
+
+I've started running [apt-cacher-ng](https://wiki.debian.org/AptCacherNg) on my internal network and the BeagleBone Black's 4 GB eMMC is a convenient (and unused) storage option. In the [mattray::beaglebone](https://github.com/mattray/mattray-cookbook/blob/master/recipes/beaglebone.rb#L6) recipe I've mounted the eMMC storage as a filesystem and I've added the [apt::cacher-ng](https://github.com/mattray/home-repo/blob/master/policyfiles/beaglebone.rb#L7) recipe in my policyfile for this machine.
