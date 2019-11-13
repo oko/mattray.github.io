@@ -19,7 +19,7 @@ Take the time to figure out exactly which model you have before getting starting
 # Equipment
 
 Make sure you have the right equipment for performing the upgrade. The [iFixit Mac Laptop Repair guides](https://www.ifixit.com/Device/Mac_Laptop) provide excellent step by step instructions for SSD replacements specific to each model. You will need the following equipment:
-* P5 Pentalobe and T5 Torx screwdrivers. I bought a [Smart Phone Repair Kit](https://www.bunnings.com.au/trojan-32-piece-smart-phone-repair-kit_p0096177) here in Australia, you may want [something similar from Azmazon](https://amzn.to/33OqKte).
+* P5 Pentalobe and T5 Torx screwdrivers. I bought a [Smart Phone Repair Kit](https://www.bunnings.com.au/trojan-32-piece-smart-phone-repair-kit_p0096177) here in Australia, you may want [something similar from Amazon](https://amzn.to/33OqKte).
 * Compressed air for cleaning out dust from the laptop's internals
 * Isopryl alcohol for cleaning the aluminum laptop case
 * [Heat resistant Kapton/Tesa/Sellotape insulation tape](https://amzn.to/2rzy79q)
@@ -28,7 +28,7 @@ Make sure you have the right equipment for performing the upgrade. The [iFixit M
 
 There are a lot of options for which SSD to purchase, the general consensus from the MacRumors thread was that the [Sabrent Rocket](https://amzn.to/2rwWK6D) and [Adata XPG SX8200](https://amzn.to/2KhtG9R) models provide the best price/performance results. If you have a 15" Macbook Pro you may benefit from a faster SSD because of the PCIe 3.0 x4, but the rest of the models are limited by PCIe 2.0 x4 giving them a theoretical limit around 2,000 MB/second (results from the thread rarely get above 1500 MB/s with 13" models. Larger drives (1TB) appear to be a bit faster, I didn't see much need to go beyond 512 gigabytes of storage and wanted to keep it relatively inexpensive. I used the [Adata XPG SX8200 Pro 512GB 3D NAND NVMe Gen3x4 PCIe M.2 2280 Solid State Drive](https://amzn.to/2KhtG9R), but would consider the [Sabrent 512GB Rocket NVMe PCIe M.2 2280 Internal SSD](https://amzn.to/2rwWK6D).
 
-The Sintech NVMe M.2 adapter is considered to be the best and you can get them directly from [Amazon](https://amzn.to/32CgDpO).
+The [Sintech NVMe M.2 adapter](https://amzn.to/32CgDpO) is considered to be the best and you can get them directly from [Amazon](https://amzn.to/32CgDpO).
 
 # Installation Steps
 
@@ -39,7 +39,7 @@ Once you have your parts in hand, here are the steps I followed to upgrade my sy
 3. Before removing the original hard drive, do a complete upgrade of the macOS operating system to the latest version available (currently 10.15.1) to ensure that any firmware updates available to your machine are applied. This is especially important if you're upgrading from 10.13 or earlier releases.
 4. After all the upgrades have been applied, shut down your Mac and follow the relevant [iFixit Mac Laptop Repair guide](https://www.ifixit.com/Device/Mac_Laptop) for removing the SSD from your laptop. Be careful not to strip the P5 and T5 screws.
 5. With the case open, take the time to clean it with the compressed air and isopryl alcohol, it's filthy in there.
-6. Attach your new SSD to the Sintech adapter and place a small strip of the Kaptop insulation tape across the adapter, [as seen here](https://forums.macrumors.com/attachments/img_0418-kapton-jpg.828146/).
+6. Attach your new SSD to the Sintech adapter and place a small strip of the Kaptop insulation tape across the adapter, [as seen here](/assets/DSC_0128.JPG).
 7. Gently insert the new SSD and screw it into the motherboard without overtightening.
 8. Close up the laptop case, reversing the steps from the iFixit guide.
 
@@ -58,13 +58,9 @@ At this point you should be ready to perform a fresh installation of macOS 10.15
 
 The upgraded SSDs are noticeably faster and have much more storage than the drives they replaced (128 and 256 gigabytes). The machines have been stable and battery life isn't noticeably different (the batteries were already 50% capacity) even though hibernation is disabled on Farnsworth. Here are the before and after benchmarks from [Blackmagic Disk Speed Test](https://apps.apple.com/au/app/blackmagic-disk-speed-test/id425264550):
 
-Farnsworth: MacBookPro11,1 (Mid 2014, Retina 13-inch)
-Original:<a href="/assets/Farnsworth-DiskSpeedTest-original.png"><img src="/assets/Farnsworth-DiskSpeedTest-original.png" alt="Before" width="250" height="252"/></a>
-Upgraded:<a href="/assets/Farnsworth-DiskSpeedTest-upgraded.png"><img src="/assets/Farnsworth-DiskSpeedTest-upgraded.png" alt="Upgraded" width="250" height="252"/></a>
-
-Bender: MacBook Air (13-inch, Early 2015)
-Original:<a href="/assets/Bender-DiskSpeedTest-original.png"><img src="/assets/Bender-DiskSpeedTest-original.png" alt="Before" width="250" height="252"/></a>
-Upgraded:<a href="/assets/Bender-DiskSpeedTest-upgraded.png"><img src="/assets/Bender-DiskSpeedTest-upgraded.png" alt="Upgraded" width="250" height="252"/></a>
+| Mac Laptop | Original Speed | Upgraded Speed |
+| Farnsworth: MacBookPro11,1 (Mid 2014, Retina 13-inch) | <a href="/assets/Farnsworth-DiskSpeedTest-original.png"><img src="/assets/Farnsworth-DiskSpeedTest-original.png" alt="Before" width="250" height="252"/></a> | <a href="/assets/Farnsworth-DiskSpeedTest-upgraded.png"><img src="/assets/Farnsworth-DiskSpeedTest-upgraded.png" alt="Upgraded" width="250" height="252"/></a> |
+| Bender: MacBook Air (13-inch, Early 2015) | <a href="/assets/Bender-DiskSpeedTest-original.png"><img src="/assets/Bender-DiskSpeedTest-original.png" alt="Before" width="250" height="252"/></a> | <a href="/assets/Bender-DiskSpeedTest-upgraded.png"><img src="/assets/Bender-DiskSpeedTest-upgraded.png" alt="Upgraded" width="250" height="252"/></a> |
 
 ## Apple SSDs
 
