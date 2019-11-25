@@ -10,11 +10,11 @@ The previous patches have been upstreamed, so these build right off of the maste
 
 # Chef LEDs Handler Cookbook
 
-<a href="https://github.com/mattray/leds_handler-cookbook"><img src="/assets/flashing_leds.gif" alt="Flashing LEDs" width="213" height="120" align="left" /></a>
+<a href="https://github.com/mattray/leds_handler-cookbook"><img src="/assets/flashing_leds.gif" alt="Flashing LEDs" width="213" height="120" align="left" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
 
 If you're using these builds you might be interested in the LEDs Handler cookbook. At the beginning of the Chef client run the LEDs blink a heartbeat pattern and at the end of the client run the LEDs are disabled. If the Chef client run fails the LEDs all stay on. It's pretty simple but it's a fun notification that the nodes are converging.
 
-https://github.com/mattray/leds_handler-cookbook
+[https://github.com/mattray/leds_handler-cookbook](https://github.com/mattray/leds_handler-cookbook)
 
 # Build Instructions
 
