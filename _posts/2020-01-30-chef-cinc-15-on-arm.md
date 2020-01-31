@@ -3,7 +3,7 @@ title: Chef and Cinc Infra Client 15.7.32 Builds for CentOS, Debian and Raspbian
 ---
 
 <a href="https://github.com/chef/chef"><img src="/assets/chef-logo.png" alt="Chef" width="100" height="100" align="left" /></a>
-<a href="https://gitlab.com/cinc-project/client"><img src="/assets/cinc-logo.png" alt="Cinc" width="100" height="110" align="right" /></a>
+<a href="https://gitlab.com/cinc-project/client"><img src="/assets/cinc-logo.png" alt="Cinc" width="100" height="100" align="right" /></a>
 
 There's a new [Chef Infra Client 15.7.32](https://discourse.chef.io/t/chef-infra-client-15-6-10-released/16388) build and it's time for new 32-bit ARM builds. I've decided to start making [Cinc](https://cinc.sh) community builds of the same versions considering these are all technically "unsupported" builds either way. All previous patches have been upstreamed, so these build right off of the master branch.
 
